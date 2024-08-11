@@ -163,7 +163,7 @@ section {
 
 }
 
-.project-card {
+.project-card{
     background-color: white;
     border: 1px solid white;
     min-height: 14em;
@@ -174,20 +174,27 @@ section {
     transition: 0.7s ease;
 }
 
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-image img {
+    width: 100%;
+
+}
+
 .project-card:hover.project-image {
     opacity: 0.9;
 }
 
-.project-image {
-   width: 100%;}
-
 .project-info {
     padding: 1em;
+
 }
 
 .project-category {
-    font-size: 0.8em;
     color: black;
+    font-size: 0.8em;
 }
 
 .project-title {
@@ -196,14 +203,13 @@ section {
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
-
 }
 
-.more-details{
+.more-details {
     text-decoration: none;
     color: #3a6cf4;
 }
 
-.more-details:hover{
-    color: #3a6cf4;
+.more-details:hover {
+    color: #af06da;
 }
